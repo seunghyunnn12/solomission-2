@@ -1,0 +1,126 @@
+@media screen and (max-width:1600px) {
+    header .rel, 
+    .hero .rel {
+        padding: 0 5rem;
+        width: 100%;
+    }
+}
+    .hero .rel {
+        justify-content: space-around;
+    }
+@media screen and (max-width:1280px) {
+    header .rel, 
+    .hero .rel {
+        padding: 0 5rem;
+        width: 100%;
+    }
+    .nav_list {
+        display: none;
+    }
+
+    .hero .tit_wrap h2 {
+        font-size: 8rem;
+    }
+    .hero .tit_wrap p {
+        font-size: 2.5rem;
+    }
+    .card_wrap {
+        transform: translateX(-5rem);
+        align-content: center;
+    }
+
+    .rel {
+        width: 120rem;
+    }
+
+    .card_wrap a {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .card_wrap p.txt {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .card_wrap li {
+        width: 20rem;
+        height: 20rem;
+    }
+    .card_wrap {
+        width: auto;
+        height: auto;
+    }
+    .card_wrap p.txt {
+        font-size: 2rem;
+        transform: translateY(-3.5rem);
+    }
+}
+
+@media screen and (max-width:960px) {
+    .hero .rel {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .arr_wrap {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .card_arrleft {
+        position: absolute;
+        left: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .card_arrright {
+        position: absolute;
+        right: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+
+    
+
+    .tit_wrap {
+        text-align: center;
+    }
+
+    .arr_wrap {
+        display: block;
+        background-color: greenyellow;
+    }
+}
+
+@media screen and (max-width:360px) {
+
+    .hero .rel {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    
+    .card_wrap li+li {
+        display: none;
+    }
+    .card_wrap li a {
+        width: 28.4rem;
+    }
+    .card_wrap {
+        display: initial;
+    }
+
+    .hero .tit_wrap h2 {
+        font-size: 2.8rem;
+    }
+    .hero .tit_wrap p {
+        display: none;
+    }
+}
